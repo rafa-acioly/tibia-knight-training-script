@@ -1,0 +1,40 @@
+-- bring tibia client as the active screen
+tell applicatioon "Tibia" to activate
+delay 0.5
+tell application "System Events" to tell process "Tibia"
+    set right_arrow to 124
+    set arrows to {123, 125, 126}
+    set heal_spell to 20
+    set food to 290
+    
+    repeat
+        -- cast spell
+        key code heal_spell
+
+        -- delay the next move between 2 and 4 minutes
+        set anti_kick to (random number from 120 to 240)
+        delay anti_kick
+
+        -- make the character "dance" to a random position
+        set next_move to some item of arrows
+        key code next_move using command down
+
+        -- delay the next action to avoid "repetitive" moviments
+        set random_delay to (random number from 5 to 8)
+        delay random_delay
+
+        -- eat food 2 times
+        repeat (random number from 1 to 2) times
+            key code food
+            delay 0.7
+        end repeat
+
+        -- always delay between actions
+        delay 1
+        key code heal_spell
+        delay 1
+        -- return to the default position
+        key code right_arrow using command down
+        delay 1
+    end repeat
+end tell

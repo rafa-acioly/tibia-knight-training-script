@@ -1,4 +1,4 @@
-# tibia-knight-training-script
+# tibia-knight-training-script for MacOS
 a MacOS script to train knigts (apple script)
 
 > **Important: DO NOT CHANGE YOUR SCREEN AWAY FROM TIBIA, THIS SCRIPT NEEDS TIBIA TO BE THE ACTIVE WINDOW**

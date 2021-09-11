@@ -23,7 +23,7 @@ Example, you can change the heal spell and the food hotkeys.
 Into the script, change the lines:
 ```
 set heal_spell to 20
-set food to 290
+set food to 29
 ```
 - 20 is the key "0" on the keyboard
 - 290 is the key "3" on the keyboard
@@ -35,4 +35,4 @@ set heal_spell to 109
 set food to 103
 ```
 - 109 is the F10 key on the keyboard
-- 103 is the key "F11" on the keyboard
+- 103 is the key F11 on the keyboard

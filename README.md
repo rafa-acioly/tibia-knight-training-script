@@ -26,7 +26,7 @@ set heal_spell to 20
 set food to 29
 ```
 - 20 is the key "0" on the keyboard
-- 290 is the key "3" on the keyboard
+- 29 is the key "3" on the keyboard
 
 to
 

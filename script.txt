@@ -5,7 +5,7 @@ tell application "System Events" to tell process "Tibia"
     set right_arrow to 124
     set arrows to {123, 125, 126}
     set heal_spell to 20
-    set food to 290
+    set food to 29
     
     repeat
         -- cast spell

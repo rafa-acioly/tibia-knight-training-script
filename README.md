@@ -3,6 +3,12 @@ a MacOS script to train knigts (apple script)
 
 > **Important: DO NOT CHANGE YOUR SCREEN AWAY FROM TIBIA, THIS SCRIPT NEEDS TIBIA TO BE THE ACTIVE WINDOW**
 
+# Features
+
+- anti-kick ✔️
+- spell training ✔️
+- auto food ✔️
+
 ## How to run
 
 1. Download the `tbamcr.scpt` and open it with the default macos code edior
